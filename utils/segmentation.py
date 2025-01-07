@@ -59,3 +59,7 @@ def create_segmented_and_variance_images(im, w, threshold=.2):
     norm_img = (im - mean_val)/(std_val)
 
     return segmented_image, norm_img, mask
+
+
+
+
