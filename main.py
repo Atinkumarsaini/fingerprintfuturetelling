@@ -394,7 +394,6 @@ import shutil
 from datetime import datetime
 import uvicorn
 from glob import glob
-
 # Import your existing utilities
 from utils.poincare import calculate_singularities
 from utils.segmentation import create_segmented_and_variance_images
